@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int x,y, z, sub;
+    printf("enter the numbeus:");
+    scanf("%d%d%d",&x,&y,&z);
+
+    sub=x-y-z;
+    printf("%d is the sub of the numbers",sum);
+    return 0;
+
+    }
