@@ -1,3 +1,4 @@
+//Program to add binary
 char * addBinary(char * a, char * b){
     int sizeA = strlen(a);
     int sizeB = strlen(b);
