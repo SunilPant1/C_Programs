@@ -1,3 +1,4 @@
+//Program to convert decimal to binary
 #include<stdio.h>    
 #include<stdlib.h>  
 int main(){  
