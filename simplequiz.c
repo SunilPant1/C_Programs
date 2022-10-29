@@ -1,3 +1,4 @@
+//Simple quiz game using C
 #include <stdio.h>
 int main()
 {
@@ -70,3 +71,4 @@ int main()
     printf("You scored %d points out of 50 points\n", d);
     return 0;
 }
+//End of program
