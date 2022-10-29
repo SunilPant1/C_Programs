@@ -1,3 +1,4 @@
+//Program of function
 #include <stdio.h>
 void displayname(char name[])
 {
