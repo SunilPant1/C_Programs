@@ -1,3 +1,4 @@
+//Porgram to multiply two numbers
 #include<stdio.h>
 int main()
 {
