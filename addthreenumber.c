@@ -1,12 +1,13 @@
+//Program to add three numbers
 #include<stdio.h>
 int main()
 {
     int x,y, z, sum;
-    printf("enter the numbeus:");
+    printf("enter the numbers:");
     scanf("%d%d%d",&x,&y,&z);
 
-    sum=x+y+Z;
-    printf("%d is the sum of the numbers",sum);
+    sum=x+y+z;
+    printf("%d is the sum of the numbers", sum);
     return 0;
 
     }
