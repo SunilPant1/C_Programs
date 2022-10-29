@@ -1,3 +1,5 @@
+Program to find average of given two numbers
+
 #include<stdio.h>
 int main()
 {
@@ -5,8 +7,8 @@ int main()
     printf("enter the numbeus:");
     scanf("%d%d",&x,&y);
 
-    avg=x+y/2;
-    printf("%d is the avg of the numbers",avg);
+    avg=(x+y)/2;
+    printf("%d is the avg of the numbers", avg);
     return 0;
 
     }
