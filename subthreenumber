@@ -2,11 +2,11 @@
 int main()
 {
     int x,y, z, sub;
-    printf("enter the numbeus:");
+    printf("enter the numbers:");
     scanf("%d%d%d",&x,&y,&z);
 
     sub=x-y-z;
-    printf("%d is the sub of the numbers",sum);
+    printf("%d is the sub of the numbers", sub);
     return 0;
 
     }
