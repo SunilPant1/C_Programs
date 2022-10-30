@@ -166,22 +166,7 @@ void preorder(struct BST *p){
         return;
     }
 
-    s.tos = -1;
-    push(&s,p);
-    //checking right node and push to stack if exist and go to left node
-    while(s.tos !=  -1){
-        p = pop(&s);
-        while(p!= NULL){
-            //printing current node
-            printf("%d \t",p->data);
-            //checking if right node is empty or not
-            if(p->right != NULL){
-                push(&s,p->right); //pushing to the stack
-            }
-            //moving toward left
-            p= p->left;
-        }
-    }
+    
 
     printf("\n");
 }
