@@ -3,7 +3,7 @@
 int main()
 {
     int a, b, c[100];
-    printf("Enter the number to convert into binary:\n");
+    printf("Enter a number to convert into binary:\n");
     scanf("%d", &a);
     for (b = 0; a > 0; b++)
     {
