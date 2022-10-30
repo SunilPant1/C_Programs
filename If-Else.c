@@ -8,7 +8,7 @@ void main(int argc, char const *argv[])
         printf("Hello World");
     }
     else{
-        printf("You are smaller\n");
+        printf("You are larger\n");
     }
     printf("Program has ended");
     
